@@ -47,7 +47,7 @@
       style: "mapbox://styles/mapbox/light-v10",
       center: [-122.467, 37.798],
       zoom: 13,
-      });
+    });
 
     /* Create a variable called "popup" to store a new Popup instance (ref: https://docs.mapbox.com/mapbox-gl-js/api/#popup). 
      * and set its HTML content to:
@@ -63,7 +63,6 @@
      * and add it to the map.
      */
     var marker = new mapboxgl.Marker({color: "red"}).setLngLat([-122.4700, 37.8011]).setPopup(popup).addTo(map);
-
   </script>
 </body>
 </html>
